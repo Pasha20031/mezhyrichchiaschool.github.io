@@ -1,0 +1,93 @@
+@charset "UTF-8";
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+.content_{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.fot__{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.fotos{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    outline: none;
+    border: unset;
+    border-bottom: 2px solid #75bd1d;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+input[type=password], select, textarea {
+    width: 90%;
+    padding: 12px;
+    outline: none;
+    border: unset;
+    border-bottom: 2px solid #75bd1d;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+.button_{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-radius: 30px;
+    background-color: #75bd1d;
+    text-decoration: none;
+    border: unset;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 1px 10px 5px rgb(201, 201, 201);
+}
+.button_:hover{
+    background-color: rgb(91, 91, 91);
+    transition: all 0.5s;
+}
+.text{
+    margin-top: 40px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+.knopka{
+    text-align: center;
+    margin: 20px 0 12px 0;
+    position: relative;
+    margin-left: 11%;
+}
+.knop_1{
+    width: 290px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    display: block;
+    border-radius: 30px;
+    background-color: #75bd1d;
+    text-decoration: none;
+    border: unset;
+    color: #fff;
+    box-shadow: 1px 10px 5px rgb(201, 201, 201);
+}
+.knop_1:hover{
+    transition: all 0.5s;
+    background-color: rgb(91, 91, 91);
+    line-height: 30px;
+    font-size: 14px;
+}

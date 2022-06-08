@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+/*Шапка*/
+header{
+    margin-top : 70px;
+    width: 100%;
+}
+.intro_1{
+    margin-top: -100px;
+    margin-left: 130px;
+    width: 315px;
+    height: 70px;
+}
+.map_1{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.map_2{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding-left: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro__a{
+    margin-left: 5px;
+    padding-right:3px ;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: -10px;
+}
+.intro__b{
+    margin-top: -10px;
+    margin-left: 5px;
+    width: 30px;
+    height:30px;
+    position: relative;
+}
+/*Зміна значків при наведенні фейс-інст*/
+.intro__a:hover{
+    width: 25px;
+    height: 25px;
+    transition: 0.75s all;
+}
+.intro__b:hover{
+    width: 25px;
+    height:25px;
+    transition: 0.75s all;
+}
+/*Підкреслення шапки*/
+.int__1 {
+    padding-bottom: 1px;
+    border-bottom: 3px solid #75bd1d;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.news{
+    background: none;
+    height: 170px;
+}
+.but{
+    margin-top: 20px;
+    text-decoration: none;
+    border-color: #333;
+    color: #333;
+    width: 140px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+}
+.but:hover{
+    transition: 0.6s all;
+    color: #000;
+    background-color: #b9b9b9;
+}
+.centernews{
+    margin-top: 20px;
+    color:#75bd1d;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+} 
+.centernews1{
+    margin-top: 20px;
+    color:#75bd1d;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+} 
+/*підкреслення заголовку*/
+.bord{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0.5px solid #b9b9b9;
+}
+.bord1{
+    margin-top: 15px;
+    border: 0.5px solid #b9b9b9;
+    margin-bottom: 20px;
+}
+/*Наповнення сайту*/
+.iner-fot{
+    height: 450px;
+    margin-top: -40px;
+} 
+.zag2{
+    display: block;
+    color: rgb(88, 88, 88);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1%;
+    margin-right: 5%;
+} 
+.zag3{
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Заповнення*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #75bd1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=date], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #75bd1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.container_ {
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 1300px;
+    margin-top: -30px;
+}
+.footerr_{
+    margin-top: 20px;
+    height:900px ;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 100%;
+}
+
+.container1:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container1 input:checked ~ .checkmark {
+    background-color: #75bd1d;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container1 input:checked ~ .checkmark:after {
+    display: block;
+}
+.container1 .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.zz{
+    color: #333;
+    font-size: 15px;
+}
+.foote_-{
+    margin-top: 20px;
+    height:1200px ;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+/*Кнопка для заповнення анкети*/
+.battun{
+    margin-left: 40%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.butt{
+    text-decoration: none;
+    color: #7e53c9;
+    border-radius: 5px ;
+    border: 3px solid #7e53c9;
+    width: 220px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+.butt:hover{
+    background:rgb(205, 205, 205);
+    transition: 0.6s all;
+    border-color: #454545;
+    color: #454545;
+    font-size: 14px;
+    line-height: 55px;
+}
+/*Кінець сайту*/
+.footer{
+    background-color: #c8c8c8;
+    width: 100vmax;
+    margin-left: -13.7%;
+    height: 100px;
+}
+.intro_2{
+    width: 325px;
+    height: 70px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer__1{
+    margin-left: 45%;
+    margin-top: -60px;
+}
+.text2{
+    color: #333;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.footer__2{
+    margin-left: 62%;
+    margin-top: -50px;
+    text-align: center;
+}
+.text1{
+    color: #333;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
